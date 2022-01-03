@@ -9,6 +9,9 @@ export class IntroComponent implements OnInit {
 
   constructor() { }
 
+  public primary_role = `Software Developer`
+  public secondary_role = `Business Analyst`
+
   ngOnInit(): void {
   }
 
