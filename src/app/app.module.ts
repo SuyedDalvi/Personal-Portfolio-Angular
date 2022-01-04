@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
 import { NgModule } from '@angular/core';
-
 import { AppComponent } from './app.component';
 import { RouterModule, Routes, ExtraOptions } from '@angular/router';
 import { ProfileComponent } from './profile/profile.component';
@@ -29,7 +29,8 @@ const config: ExtraOptions = {
     ReactiveFormsModule,
     RouterModule.forRoot(routes, config),
     ProfileModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
