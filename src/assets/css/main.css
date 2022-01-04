@@ -1354,11 +1354,11 @@ small {
 }
 
 a {
-  color: #378C3F;
+  color: #3a3b3a;
 }
 
 a:hover, a:focus {
-  color: #378C3F;
+  color: #000000;
 }
 
 h1, .h1 {
@@ -1403,10 +1403,10 @@ h5, .h5 {
   margin-bottom: 15px;
 }
 
-h6, .h6 {
+h6, h6.category {
   font-size: 1em;
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 p {
@@ -4955,6 +4955,13 @@ img {
   padding-right: 0;
   text-align: center;
   color: #fff;
+}
+
+.cc-certifications-header {
+  padding-top: 60px;
+  padding-right: 0;
+  text-align: center;
+  color: #FFFFFF
 }
 
 /* References Style */

@@ -1353,13 +1353,13 @@ small {
   font-size: 60%;
 }
 
-a {
+/* a {
   color: #378C3F;
 }
 
 a:hover, a:focus {
   color: #378C3F;
-}
+} */
 
 h1, .h1 {
   font-size: 3.5em;
@@ -4956,6 +4956,8 @@ img {
   text-align: center;
   color: #fff;
 }
+
+
 
 /* References Style */
 .cc-reference .card {
